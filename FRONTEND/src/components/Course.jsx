@@ -15,6 +15,7 @@ export default function Course() {
 
       } catch (error) {
         console.log("Error ",error);
+        console.log("Error ",error);
       }
     }
     getBook();
