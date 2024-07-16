@@ -9,7 +9,7 @@ export default function Course() {
   useEffect(()=>{
     const getBook=async()=>{
       try {
-       const res= await axios.get('http://localhost:3000/book');
+       const res= await axios.get('https://book-store1-czne.onrender.com/book');
        console.log(res.data);
        setBook(res.data);
 

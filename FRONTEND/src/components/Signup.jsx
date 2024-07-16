@@ -24,7 +24,7 @@ export default function Signup() {
     };
 
     try {
-      const response = await axios.post("http://localhost:3000/user/signup", userinfo);
+      const response = await axios.post("https://book-store1-czne.onrender.com/user/signup", userinfo);
       console.log(response.data);
       if (response.data) {
         toast.success('Successfully created!');
