@@ -1,0 +1,102 @@
+[
+
+    {
+        "id":1,
+        "name":"story Book",
+        "title": "Lorem Ipusum",
+        "Price":100,
+        "category":"free",
+        "image":"https://img.freepik.com/free-photo/international-day-education-scene-with-fantasy-style_23-2151040338.jpg?t=st=1720985743~exp=1720989343~hmac=5f0207da4e8566dcdcfd55deb04abc501e5da20644c9f812f649de65831e7557&w=996"
+    },
+
+    {
+        "id":2,
+        "name":"AI Book 2",
+        "title": "Lorem Ipusum 2",
+        "Price":200,
+        "category":"free",
+        "image":"https://img.freepik.com/free-photo/international-day-education-scene-with-fantasy-style_23-2151040338.jpg?t=st=1720985743~exp=1720989343~hmac=5f0207da4e8566dcdcfd55deb04abc501e5da20644c9f812f649de65831e7557&w=996"
+    },
+
+    {
+        "id":3,
+        "name":"Harry Potter",
+        "title": "Lorem Ipusum 3",
+        "Price":50,
+        "category":"free",
+        "image":"https://img.freepik.com/free-photo/international-day-education-scene-with-fantasy-style_23-2151040338.jpg?t=st=1720985743~exp=1720989343~hmac=5f0207da4e8566dcdcfd55deb04abc501e5da20644c9f812f649de65831e7557&w=996"
+    },
+    {
+        "id":4,
+        "name":"Game of Thrones",
+        "title": "Lorem Ipusum 3",
+        "Price":50,
+        "category":"Entertainment",
+        "image":"https://img.freepik.com/free-photo/international-day-education-scene-with-fantasy-style_23-2151040338.jpg?t=st=1720985743~exp=1720989343~hmac=5f0207da4e8566dcdcfd55deb04abc501e5da20644c9f812f649de65831e7557&w=996"
+    },
+    {
+        "id":5,
+        "name":"Harry Potter 2",
+        "title": "Lorem Ipusum 3",
+        "Price":50,
+        "category":"Entertainment",
+        "image":"https://img.freepik.com/free-photo/international-day-education-scene-with-fantasy-style_23-2151040338.jpg?t=st=1720985743~exp=1720989343~hmac=5f0207da4e8566dcdcfd55deb04abc501e5da20644c9f812f649de65831e7557&w=996"
+    },
+    {
+        "id":6,
+        "name":"Current Affairs",
+        "title": "Lorem Ipusum 3",
+        "Price":120,
+        "category":"free",
+        "image":"https://img.freepik.com/free-photo/international-day-education-scene-with-fantasy-style_23-2151040338.jpg?t=st=1720985743~exp=1720989343~hmac=5f0207da4e8566dcdcfd55deb04abc501e5da20644c9f812f649de65831e7557&w=996"
+    },
+    {
+        "id":7,
+        "name":"Cricket",
+        "title": "Lorem Ipusum 3",
+        "Price":120,
+        "category":"sports",
+        "image":"https://img.freepik.com/free-photo/international-day-education-scene-with-fantasy-style_23-2151040338.jpg?t=st=1720985743~exp=1720989343~hmac=5f0207da4e8566dcdcfd55deb04abc501e5da20644c9f812f649de65831e7557&w=996"
+    },
+    {
+        "id":8,
+        "name":"General Knowledge",
+        "title": "Lorem Ipusum 3",
+        "Price":120,
+        "category":"Knowledge",
+        "image":"https://img.freepik.com/free-photo/international-day-education-scene-with-fantasy-style_23-2151040338.jpg?t=st=1720985743~exp=1720989343~hmac=5f0207da4e8566dcdcfd55deb04abc501e5da20644c9f812f649de65831e7557&w=996"
+    },
+    {
+        "id":9,
+        "name":"Cooks Book",
+        "title": "Lorem Ipusum 3",
+        "Price":50,
+        "category":"free",
+        "image":"https://img.freepik.com/free-photo/international-day-education-scene-with-fantasy-style_23-2151040338.jpg?t=st=1720985743~exp=1720989343~hmac=5f0207da4e8566dcdcfd55deb04abc501e5da20644c9f812f649de65831e7557&w=996"
+    },
+    {
+        "id":10,
+        "name":"Tech",
+        "title": "Lorem Ipusum 3",
+        "Price":120,
+        "category":"Technical",
+        "image":"https://img.freepik.com/free-photo/international-day-education-scene-with-fantasy-style_23-2151040338.jpg?t=st=1720985743~exp=1720989343~hmac=5f0207da4e8566dcdcfd55deb04abc501e5da20644c9f812f649de65831e7557&w=996"
+    },
+    {
+        "id":11,
+        "name":"Friends",
+        "title": "Lorem Ipusum 3",
+        "Price":50,
+        "category":"free",
+        "image":"https://img.freepik.com/free-photo/international-day-education-scene-with-fantasy-style_23-2151040338.jpg?t=st=1720985743~exp=1720989343~hmac=5f0207da4e8566dcdcfd55deb04abc501e5da20644c9f812f649de65831e7557&w=996"
+    },
+    {
+        "id":12,
+        "name":"The Boys",
+        "title": "Lorem Ipusum 3",
+        "Price":50,
+        "category":"Entertainment",
+        "image":"https://img.freepik.com/free-photo/international-day-education-scene-with-fantasy-style_23-2151040338.jpg?t=st=1720985743~exp=1720989343~hmac=5f0207da4e8566dcdcfd55deb04abc501e5da20644c9f812f649de65831e7557&w=996"
+    }
+    
+]

@@ -1,0 +1,104 @@
+.search-container {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0vh;
+  }
+  
+  .input {
+    max-height: 30px;
+    max-width: 1900px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+    animation: rotateShadow 2s infinite linear;
+  }
+  
+
+  
+  @keyframes rotateShadow {
+    0% {
+      box-shadow: -2px -2px 8px 1px #aa00ff, 2px 2px 8px 1px #3700ff;
+    }
+    25% {
+      box-shadow: -2px 2px 8px 1px #aa00ff, 2px -2px 8px 1px #3700ff;
+    }
+    50% {
+      box-shadow: 2px 2px 8px 1px #aa00ff, -2px -2px 8px 1px #3700ff;
+    }
+    75% {
+      box-shadow: 2px -2px 8px 1px #aa00ff, -2px 2px 8px 1px #3700ff;
+    }
+    100% {
+      box-shadow: -2px -2px 8px 1px #aa00ff, 2px 2px 8px 1px #3700ff;
+    }
+  }
+
+  @media screen and (max-width: 1221px) {
+    .input {
+      display: none;
+    }
+    .btn{
+      margin: auto;
+    }
+  }
+
+  .Book-store{
+
+    font-family: "Playwrite DK Loopet", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  }
+  .btn{
+    height: 100px;
+  }
+
+
+.button {
+  margin: 0;
+  height: auto;
+  background: transparent;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+/* button styling */
+.button {
+  --border-right: 3px;
+  --text-stroke-color: rgb(255, 255, 255);
+  --animation-color: rgb(255, 255, 255);
+  --fs-size: 2em;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: var(--fs-size);
+  font-family: "Arial";
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+/* this is the text, when you hover on button */
+.hover-text {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.7s;
+  -webkit-text-stroke: 1px var(--animation-color);
+}
+/* hover */
+.button:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 30px var(--animation-color))
+}
+  
