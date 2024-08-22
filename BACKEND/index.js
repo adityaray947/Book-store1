@@ -8,7 +8,7 @@ import path from "path"
 dotenv.config();
 
 const PORT = process.env.PORT || 4000;
-const MONGODB_URI = process.env.MONGODB_URI;
+const URI = process.env.MONGODB_URI || 'mongodb+srv://adityaray947:9818650879a@bookstore12.hbx5y8d.mongodb.net/';
 const app = express();
 app.use(cors());
 const __dirname1 = path.resolve();
@@ -38,7 +38,7 @@ app.use('/user',userRoute);
 
 
 
-mongoose.connect(MONGODB_URI, {
+mongoose.connect(URI, {
 
 })
 .then(() => {
